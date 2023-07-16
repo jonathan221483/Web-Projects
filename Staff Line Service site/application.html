@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>
+Application
+</title>
+<link rel="stylesheet" href="style.css">
+
+<style type="text/css">
+	.title{
+		color: #680404;
+	}
+	label{
+		color: #083FA5;
+	}
+	.submit{
+		padding: 10px;
+		background-color: #DC9437;
+		border: none;
+	}
+</style>
+</head>
+
+<body>
+
+<header>
+<p align="center" color="white" class="title">Please give us your information</p>
+</header>
+
+<main>
+	<form method="post" action="application.php">
+<hr>
+<label for="name">Your name</label><br>
+<input type="text" name="name" id="name" placeholder="Input your name" required><hr>
+
+<label for="phone">Phone number</label><br>
+<input type="tel" name="phone" id="phone" placeholder="Input yourphone number" required><hr>
+
+<label for="company">Your company</label><br>
+<input type="text" name="company" id="company" placeholder="Input your company name" required><hr>
+
+<label for="type">Type of meal</label><br>
+<input type="radio" name="type" value="Breakfast" id="break"><label for="break" required>Breakfast</label><br>	
+<input type="radio" name="type" value="Dinner" id="din" required><label for="din">Dinner</label><br><hr>
+
+<label for="pref">Personal preferences</label><br>
+<textarea name="pref" id="pref" rows="10" cols="20" placeholder="Input your personal preferences" required></textarea><hr>
+
+<input type="submit" value="Submit application" class="submit">
+
+</form>
+</main>
+
+<footer>
+
+</footer>
+
+</body>
+</html>

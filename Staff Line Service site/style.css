@@ -1,0 +1,29 @@
+header
+{
+font-size: 150%;
+}
+body
+{
+background: linear-gradient(to bottom, yellow, red);
+}
+main
+{
+padding-left: 300px;
+padding-right: 300px;
+font-size: 150%;
+text-align: center;
+}
+li
+{
+	 float: left;
+    margin: 0;
+    padding: 0 9px;
+    height: 42px;
+    font-size: 25px;
+    line-height: 42px;
+    font-family: tahoma, geneva, sans-serif;
+}
+ul
+{
+    list-style: none;
+}

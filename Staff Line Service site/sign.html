@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<title>
+Registration
+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+<a href="mainpage.html">Main page</a>
+</header>
+
+<body>
+<main>
+
+<form method="post" action="maincode.php">
+<hr>
+<p>Your gender</p>
+<input type="radio" name="gender" value="male" id="male"><label for="male" required>Male</label><br>	
+<input type="radio" name="gender" value="female" id="female" required><label for="female">Female</label><br><hr>
+<label for="email">Your email</label><br>
+<input type="text" name="email" id="email" required><hr>
+<label for="phone">Phone number</label><br>
+<input type="tel" name="phone" id="phone" required><hr>
+<label for="login">Login:</label>
+<input type="text" name="login" id="login" required>
+<label for="password">Password:</label>
+<input type="password" name="password" id="password" required><hr>
+<input type="submit" value="Register account">
+</form>
+
+</main>
+</body>
+</html>
