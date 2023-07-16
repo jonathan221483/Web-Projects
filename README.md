@@ -7,7 +7,7 @@ To correctly open websites you must start local server on your computer
 
 During development of these websites XAMPP was used
 
-### Should be mentioned
+# Should be mentioned
 
 I am not a front-end developer or a designer
 
